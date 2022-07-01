@@ -42,7 +42,7 @@ export function TaskList({ tasks, onToggle, onDelete }: TaskListProps) {
         <div className={styles.marker}>
           <p className={styles.finished}>Concluídas</p>
           <span>
-            {totalAndFinished?.all} de {totalAndFinished?.finished}
+            {totalAndFinished?.finished} de {totalAndFinished?.all}
           </span>
         </div>
       </header>
