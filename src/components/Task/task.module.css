@@ -1,0 +1,62 @@
+.container {
+  background-color: var(--gray-400);
+  padding: 1rem;
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.containerOpacity {
+  opacity: 0.7;
+}
+
+.infoTask {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.buttons {
+  display: block;
+}
+
+.buttons > button {
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notCheck {
+  background-color: transparent;
+  border: 2px solid var(--blue-500);
+}
+
+.check {
+  background-color: var(--purple-600);
+  border: 2px solid var(--purple-600);
+}
+
+.deleteTask {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.textNormal {
+  font-weight: 300;
+  color: var(--white);
+}
+
+.textDashed {
+  font-weight: 300;
+  text-decoration: line-through;
+}
